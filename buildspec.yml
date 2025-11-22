@@ -27,7 +27,4 @@ phases:
       - printenv
       - echo `pwd`
 <<<<<<< HEAD
-      - bash $docker_ci_build_code/docker_python/scripts/build_and_push.sh $DOCKER_IMAGE_NAME
-=======
-      - bash $CODEBUIdocker_ci_build_code/scripts/build_and_push.sh $DOCKER_IMAGE_NAME
->>>>>>> e8db678 (third commit)
+      - bash $scripts/build_and_push.sh $DOCKER_IMAGE_NAME
